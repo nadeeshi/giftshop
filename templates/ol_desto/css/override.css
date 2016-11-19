@@ -1,0 +1,168 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on Sboost Framework   
+# ---------------------------------------------------------------
+# Author - olwebdesign http://www.olwebdesign.com
+# Copyright (C) 2008 - 2016 olwebdesign.com. All Rights Reserved.
+# Websites: http://www.olwebdesign.com
+-----------------------------------------------------------------*/
+
+body{font-size:13px;}
+#wrapper, #bottomspot, .mx-base {width: 960px;} 
+#tophead, #bottsite, #header, #wrapper, #bottomspot {min-width: 960px; margin: 0 auto}
+#mx-leftcol {width: 25%} 
+#mx-rightcol { width: 27%} 
+#mx-sideleft {width: 20%}
+#mx-sideright { width: 30%}
+h1,h2,h3,h4, .very_big_white, .big_black
+ {
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:300;
+}
+body.bg { color: #444; background-color: #f2f2f2;}
+.main-bg {position: relative; background-color: #fff;}
+#wrapper { color: #444; background-color: #fff; background-color: rgba(255,255,255,0.9);
+	box-shadow:0 0 5px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 5px rgba(0,0,0,0.2);
+	-webkit-box-shadow:0 0 5px rgba(0,0,0,0.2);}
+#bottsite {  background-color: rgba(0,0,0,0.8); color: #828b95; padding-top: 70px; }
+#botfix {  padding-top: 70px; }
+#bottsite h3 {  color: #f1f1f1; font-size: 24px; padding-bottom: 6px; border-bottom: 1px solid #999;}
+#bottsite a {  color: #ccc; }
+.jul-formregistration, .jul-formlogin { color: #222;
+}
+blockquote {
+  font-size: 15px !important;
+}
+#mx-basebody .mx-base	{ margin-bottom: -50px; padding-bottom: 10px;}
+.mx_date { padding: 5px 0px;}
+
+#menuout .mx-inner,
+#mx-banner .mx-inner, #mx-header  .mx-inner {
+	padding:0;
+}
+#mx-search { height: 24px;}
+#mx-bottom a{  background: transparent;}
+#mx-bottom li a{ padding: 7px 0px; border-bottom: 1px solid #68717b;}
+#mx-bottom li a:hover{  color: 1px solid #68717b;}
+#bottomspot .mx-inner {padding:0;}
+.mx_date{float:left;margin-top:8px}
+.form-actions{padding:2px 4px 2px;margin-top:5px;margin-bottom:5px;background: transparent;border-top:1px solid #fff;*zoom:1;}	
+
+#hormenu ul li .submenu-inner,#sublevel ul li .submenu-inner { padding: 3px; margin: 0px 3px 3px 3px; 
+	box-shadow:0 0 3px rgba(0,0,0,0.1);
+	-moz-box-shadow:0 0 3px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,0.1);}
+input{width:90%;}
+textarea{width:98%;}
+.quick_contact input{width:80%;}
+#contact-form input{width:40%;}
+#user-registration input, #member-registration input, .login input{width:230px;}
+.pagenav a,.pager a{display:inline-block;padding:4px 14px;background-color:#fff;border:1px solid #ddd;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;background:#fafafa; border-bottom:1px solid #dadada;
+	background-image: -webkit-linear-gradient(top,  #fff, #e6e6e6);
+	background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
+	background-image: -ms-linear-gradient(top, #fff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #fff, #e6e6e6);}
+.pager a:hover{text-decoration:none;background:#f5f5f5; border-bottom:1px solid #dadada;
+	background-image: -webkit-linear-gradient(top,  #e6e6e6, #fff);
+	background-image: -moz-linear-gradient(top, #e6e6e6, #fff);
+	background-image: -ms-linear-gradient(top, #e6e6e6, #fff);
+	background-image: -o-linear-gradient(top, #e6e6e6, #fff);}
+a#pagetop{float:right;padding: 4px 10px;}	
+a#valdate{  font-size: 10px;padding: 2px 5px; }	
+	
+.jlogin1 {float:left;width:40%;margin-right:12px;}
+.jlogin2 {float:left;width:50%;margin-top:14px;color:#999;}
+.jlogintext {float:left;margin:0 12px 12px 0;}
+
+.contactForm legend  { font-size: 12px !important;}
+#mx-rightcol .control-group { font-size: 12px !important; }
+
+#mx-rightcol input { width: 95% !important;}
+.btn-primary {
+  background-image: -webkit-linear-gradient(top, #999 0%, #555 100%);
+  background-image: linear-gradient(to bottom, #999 0%, #555 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#999', endColorstr='#555', GradientType=0);
+  border-color: #999;
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.gallery  {
+    margin: 0;
+  }
+  @media (max-width: 767px) {
+body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  }  
+/*
+// #Accordion
+// --------------------------------------------------
+*/
+.accordion-heading {
+  font-size: 13px !important;
+  font-family: 'Muli', sans-serif;
+  line-height: 1.5em;
+  text-transform: none;
+  padding: 0;
+}
+.accordion-heading > a {
+  display: block;
+  padding: 12px 18px 12px 12px !important;
+  color: #444;	
+  background-image: -webkit-linear-gradient(top,  #fff, #e6e6e6);
+	background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
+	background-image: -ms-linear-gradient(top, #fff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #fff, #e6e6e6);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  position: relative;
+}
+
+.accordion-heading > a.collapsed {
+  color: #6d6d6d;
+  background-color: #f4f4f4;
+}
+
+.accordion-heading > a.collapsed:hover {
+	background-image: -webkit-linear-gradient(top,  #e6e6e6, #fff);
+	background-image: -moz-linear-gradient(top, #e6e6e6, #fff);
+	background-image: -ms-linear-gradient(top, #e6e6e6, #fff);
+	background-image: -o-linear-gradient(top, #e6e6e6, #fff);
+  text-decoration: none;
+}
+.accordion-heading > a:hover {
+  text-decoration: none;
+}
+.accordion-inner {
+  padding: 14px 20px;
+  background: #f7f7f7;
+}  
+  
+#mx-header { height:100%;
+}
+#tophead{ padding: 0px; margin: 0px;}
+
+#mx-topout {
+     width: 100%; background:rgba(255,255,255,0.8) !important; 
+	box-shadow:0 0 5px rgba(0,0,0,0.6);
+	-moz-box-shadow:0 0 5px rgba(0,0,0,0.6);
+	-webkit-box-shadow:0 0 5px rgba(0,0,0,0.6);  
+}
+.tab .tab-content {
+  margin-top: -5px;
+} 	
+a{color:#99cc33}
+a:hover,a:active,a:focus{color:#585858}
+/*main menu*/
+#mx-bottom a:hover{color:#333 }
+#hormenu ul.level-0 > li.menu-item:hover > a.menu-item,
+#hormenu ul.level-0 > li.menu-item.active> a.menu-item{  margin: 0px;color: #fff;background-color:#99cc33; }
+.colors, .tp-caption.ExtraLargeTitle span, #tophead {background-color:#99cc33;color: #fff;}
+#mx-top-header {background-color:#99cc33;color: #fff;}
+#mx-basebody .mx-base { border-bottom: 5px solid #99cc33; }
